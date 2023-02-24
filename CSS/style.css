@@ -2,8 +2,10 @@ body {
     font-family: 'Oswald';
 }
 
+
+
 .background1 {
-    background: url(assets/JC.png);
+    background: url('/assets/Desktop_Backgrounds_1920x1200_6\ 3.png');
     background-repeat: none;
     background-size: 100% 100%;
     padding-top: 2%;
@@ -18,7 +20,7 @@ body {
     width: 500px;
     height: 400px;
     position: absolute;
-    background: transparent url(assets/Stars.png) 0 0 no-repeat;
+    background: transparent url(/assets/Stars.png) 0 0 no-repeat;
 
 }
 
@@ -36,7 +38,7 @@ body {
     width: 500px;
     height: 800px;
     position: absolute;
-    background: transparent url(assets/Group\ 26.png) 0 0 no-repeat;
+    background: transparent url(/assets/Group\ 26.png) 0 0 no-repeat;
 
 }
 
@@ -121,7 +123,7 @@ body {
 
 
 .background2 {
-    background: url(assets/2.png);
+    background: url(/assets/2.png);
     background-size: auto;
     font-style: normal;
     text-align: center;
@@ -202,7 +204,7 @@ body {
 }
 
 .background3 {
-    background: url(assets/IMG_1334_72dpi_RGB_\ 1.png);
+    background: url(/assets/IMG_1334_72dpi_RGB_\ 1.png);
     background-repeat: none;
     background-size: cover;
     font-style: normal;
@@ -242,7 +244,7 @@ body {
 }
 
 .background4 {
-    background: url(assets/4.png);
+    background: url(/assets/4.png);
     background-size: 100% auto;
     height: auto;
     width: auto;

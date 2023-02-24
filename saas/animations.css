@@ -1,0 +1,41 @@
+.stars01 {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  background: transparent url(/assets/Stars.png) 0 0 no-repeat;
+}
+
+.fstars01 {
+  top: 100px;
+  z-index: inherit;
+  animation-name: drift;
+  animation-duration: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.stars02 {
+  width: 500px;
+  height: 800px;
+  position: absolute;
+  background: transparent url(/assets/Group\ 26.png) 0 0 no-repeat;
+}
+
+.fstars02 {
+  top: 100px;
+  z-index: inherit;
+  animation-name: drift;
+  animation-duration: 25s;
+  animation-delay: 10S;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(-255px);
+  }
+  to {
+    transform: translateX(1350px);
+  }
+}/*# sourceMappingURL=animations.css.map */
